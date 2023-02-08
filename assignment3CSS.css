@@ -1,0 +1,54 @@
+h1 {
+    color:darkslateblue;
+    background-color:lightpink;
+}
+
+h2 {
+    color: #990000;
+    background-color:burlywood;
+}
+
+.bluetext {
+    color: blue;
+  }
+
+  h3 {
+    color:darkcyan;
+    background-color:honeydew;
+  }
+
+  .purpletext {
+    color: purple;
+  }
+  
+  #redtext {
+    color: firebrick;
+  }
+
+
+.orangetext {
+  color:orangered;
+}
+
+#divtest {
+    background-color: khaki;
+}
+
+.spanstyle {
+    color:blueviolet;
+}
+
+a:link {
+    color:red;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }        
+  
+  a:visited {
+    color: green;
+    text-decoration: none;
+  }
