@@ -1,0 +1,55 @@
+.customtext1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: none;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.customtext2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: none;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+}
+
+.footertext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    text-align: justify;
+}
+
+.customtext3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: none;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify;
+}
+
+.imgbox {
+    border: 20px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+body {
+    background-color: purple;
+    background-image: url(sunset.jpeg);
+}      
