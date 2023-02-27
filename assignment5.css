@@ -1,0 +1,98 @@
+body {
+    background-image: url(a5bg.png);
+}
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    font-weight: normal;
+    font-size: 30px;
+    
+}
+
+.customtext2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+
+.whitediv {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+
+
+}
+
+.bordertop {
+  border-top: 3px solid black;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+  
+  .justifytext {
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .boxmodel {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+    padding: 40px 40px 40px 40px;
+    margin: 20px 20px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+nav li {
+border: 1px solid black; 
+width: 150px;
+margin: 10px;
+background-color: darkblue;
+display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+    
+}
+
+nav li a:hover {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+  }
+
+ 
+  p a:link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  p a:visited {
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  p a:hover {
+    color: red;
+    text-decoration: underline;
+  }        
