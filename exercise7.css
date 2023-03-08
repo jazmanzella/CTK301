@@ -6,7 +6,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 100px auto 800px;
+    grid-template-rows: 100px auto 850px;
   }
   header {
     grid-column: span 12;
@@ -30,6 +30,7 @@
     grid-column: span 4;
     margin: 24px;
    padding-left: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .main2 {
     color: white;
@@ -37,6 +38,7 @@
     padding-left: 10px;
     margin: 24px;
     background-color: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .main2 p {
     font-style:italic;
@@ -113,6 +115,7 @@ footer{
     border-top: 5px solid black;
     text-align: center;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 main img {
