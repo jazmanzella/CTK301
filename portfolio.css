@@ -27,7 +27,7 @@ body {
   padding-right: 20px;
   height: 350px;
   width: 350px;
-  border-radius: 100%;
+  border-radius: 500%;
   grid-column: span 6;
   padding-bottom: 40px;
   padding-top: 20px;
@@ -38,7 +38,15 @@ main {
     grid-column: span 4;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
+}
+
+.dropshadowbox {
+  padding: 0px;
+  margin: 10px;
+  width: 350px;
+  background-color: hsl(283, 72%, 75%);
+  box-shadow: 8px 8px 5px rgb(74, 16, 74);
 }
 
 nav {
@@ -75,6 +83,7 @@ header {
     text-align: center;
     color: white;
     padding-bottom: 20px;
+    font-family: 'Atma', cursive;
 }
 
 
@@ -84,19 +93,22 @@ footer {
     color: white;
     padding: 20px;
     margin: 20px 20px 0px 20px;
+    margin-top: 30px;
     position: relative;
-    top: 100px;
+    bottom: 5px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
 
 }
  
 .paragraph1 {
   background-color: hsl(283, 72%, 75%);
   color: white;
-  padding: 10px;
+  padding: 0px;
   margin: 20px;
   grid-column: span 2;
+  font-family: 'Karla', sans-serif;
 
  
 }
@@ -105,7 +117,7 @@ nav ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Righteous', cursive;
 
 }
 
@@ -113,7 +125,6 @@ nav li {
 width: 150px;
 margin: 50px;
 background-color: hsl(283, 72%, 75%);
-
 }
 
 nav li a {
@@ -122,6 +133,7 @@ nav li a {
   padding: 30px;
   text-align: center;
   color: white;
+  transition: background-color .5s, width 2.0s, color 2.0s;
   
 }
 
@@ -131,3 +143,31 @@ nav li a:hover {
   color: white;
 }
 
+.instagramlogo {
+  position: relative;
+  left: 40px;
+  align-items: center;
+ 
+}
+
+video {
+  position: relative;
+  left: 20px;
+  height: 150px;
+  width: 300px;
+  padding: 10px;
+ 
+}
+
+footer a {
+  color: darkorchid;
+  font-size: 35px;
+  position: relative;
+  left: 50px;
+  
+}
+
+footer a:hover {
+  transition: background-color .5s, width 2.0s, color 1.0s;
+  color: purple;
+}
