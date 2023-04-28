@@ -20,6 +20,14 @@ body {
   grid-column: span 12;
 }
 
+.floatimg2 {
+  float: left;
+  height: 100px;
+  position: relative;
+  right: 150px;
+  bottom: 20px;
+
+}
 
 .floatimg {
   float: left;
@@ -95,7 +103,7 @@ footer {
     margin: 20px 20px 0px 20px;
     margin-top: 30px;
     position: relative;
-    bottom: 5px;
+    top: 40px;
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-size: 20px;
@@ -163,7 +171,8 @@ footer a {
   color: darkorchid;
   font-size: 35px;
   position: relative;
-  left: 50px;
+  left: 30px;
+  top: 5px;
   
 }
 

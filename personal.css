@@ -1,0 +1,158 @@
+body {
+    background-color: #999999;
+    background-image: url(stars.jpg);
+    
+  }
+  
+  #wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 3px solid black;
+    padding: 1em;
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+  }
+
+  .floatimg2 {
+    float: left;
+    height: 100px;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+  
+  }
+
+  body {
+    background-color: #999999;
+    background-image: url(stars.jpg);
+    
+  }
+
+  footer {
+    grid-column: span 12;
+    background-color: hsl(283, 72%, 75%);
+    color: white;
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+  
+
+.fiction {
+
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  grid-column: span 1;
+  color: white;
+  font-family: 'Karla', sans-serif;
+}
+
+.fiction p {
+  background-color: hsl(283, 66%, 18%);
+  padding: 10px;
+}
+
+.sky {
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  grid-column: span 1;
+  color: white;
+  font-family: 'Karla', sans-serif;
+}
+
+.sky p {
+  background-color: hsl(283, 66%, 18%);
+  padding: 30px;
+}
+
+
+nav {
+  grid-column: span 1;
+  position: relative;
+
+}
+.lightning {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  grid-column: span 4;
+  color: white;
+  position: relative;
+  right: 1000px;
+  bottom: 200px;
+  font-family: 'Karla', sans-serif;
+}
+
+.lightning p {
+  background-color: hsl(283, 66%, 18%);
+  padding: 30px;
+}
+
+
+  
+  h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    grid-column: span 12;
+  }
+  
+
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', cursive;
+  
+  }
+  
+  nav li {
+  width: 150px;
+  margin: 50px;
+  background-color: hsl(283, 72%, 75%);
+  }
+  
+  nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    transition: background-color .5s, width 2.0s, color 2.0s;
+    
+  }
+  
+  nav li a:hover {
+    background-color: hsl(283, 60%, 60%);
+    text-decoration: none;
+    color: white;
+  }
+
+  .active {
+    background-color: hsl(283, 54%, 37%);
+    
+  }
+ 
+
+footer a {
+    color: purple;
+    font-size: 35px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    
+  }
+  
+  footer a:hover {
+    transition: background-color .5s, width 2.0s, color 1.0s;
+    color: darkorchid;
+  }

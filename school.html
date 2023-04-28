@@ -7,9 +7,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
-
   <link rel="stylesheet" href="school.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
@@ -30,33 +27,47 @@
 <body>
   <div id="wrapper">
     
-    <h1>school projects</h1>
-    <div id="fdiv">
-     
+    <h1>  <a href="portfolio.html"> 
+      <img class="floatimg2" src="logo.png"> </a> school projects </h1> 
+    <div class="uncomfortable">
+      <a href="uncomfortableart.png" data-fancybox="gallery" data-caption="uncomfortable art">
+        <img src="uncomfortableart_thumb.png">
+      </a>
+      <p> for this project, we were told to make something using a software or art medium that we weren't used to using. i decided to use adobe photoshop because i have never in my life opened it and to be honest, i was scared. after lots of trial and error, i eventually got the hang of it. we were also required to incorporate an emotion in our piece. i landed on joy, and this piece is supposed to represent the person in your life who can bring you back down to reality when you're stuck in your head. 
+      </p>
+    </div>
 
-    <a href="uncomfortableart.png" data-fancybox="gallery" data-caption="uncomfortable art">
-      <img src="uncomfortableart_thumb.png">
-    </a>
-    <a href="purplespidey.jpeg" data-fancybox="gallery" data-caption="Space Spider-man">
-      <img src="purplespidey_thumb.jpg">
-    </a>
-    <a href="anotherworld.jpg" data-fancybox="gallery" data-caption="world">
-      <img src="anotherworld_thumb.jpg">
+    <div class="spider">
+      <a href="purplespidey.jpeg" data-fancybox="gallery" data-caption="space Spider-Man">
+        <img src="purplespidey_thumb.jpg">
+      </a>
+      <p> i experimented with photoshop again and made a remix/emulation of spider-man. spider-man has been my favorite superhero for quite a while. to remix the original design for him, i made his suit purple. also, i put him in space.  </p>
+    </div>
+
+    <div class="world">
+      <a href="anotherworld.jpg" data-fancybox="gallery" data-caption="world">
+        <img src="anotherworld_thumb.jpg">
+      </a>
+      <p> for this next project during CTK 201, we were assigned to make up three fake artists and create an art piece in the medium they would. this was one of my artist's denji, and he would work with photoshop and experiment with filters and lighting. </p>
+    </div>
+
+    <div class="leaf">
       <a href="leaftree.jpeg" data-fancybox="gallery" data-caption="everything as leaves">
         <img src="leaftree_thumb.jpg">
-
-        
-    </a>
+      </a>
+      <p> this project is from the same fake artist assignment. this is eve's piece. she would create art using things in nature like leaves, sticks, grass, rocks, etc. so to encapsulate her work, i decided to make a nature setting only made of leaves. </p>
+    </div>
 
     <nav>
         <ul> 
             <li class="home"><a href="portfolio.html"> home</a></li>
-            <li class="projects"><a href="projects.html"> projects</a></li>
-            <li class="contact"><a href="#"> contact</a></li>
+            <li class="about"><a href="about.html"> about </a></li> 
+            <li class="school projects"><a class="active" href="school.html"> school projects</a></li>
+            <li class="personal projects"><a href="personal.html"> personal projects</a></li>
+            <li class="contact"><a href="contact.html"> contact</a></li>
         </ul>
     </nav>
-  </div>
-
+  
 
 
 
@@ -68,8 +79,6 @@
     new Carousel(container, options);
     
  </script>
-
-
 
 <footer> thanks for stopping by! 
     <a href="https://www.instagram.com/jazsvisuals/" target="_blank" class="bi bi-instagram"></a>

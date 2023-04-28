@@ -1,0 +1,108 @@
+body {
+  background-image: url(stars.jpg);
+}
+
+  #wrapper {
+    margin: 24px auto 0 auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    padding-bottom: 0px;
+    display: grid;
+   
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    grid-column: span 12;
+  }
+
+
+  .main {
+  
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  grid-column: span 5;
+  font-family: 'Karla', sans-serif;
+
+}
+
+.main p {
+  background-color:  hsl(283, 48%, 37%);
+  padding: 25px;
+}
+
+nav {
+  grid-column: span 2;
+  position: relative;
+  left: 100px;
+}
+
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', cursive;
+  
+  }
+  
+  nav li {
+  width: 150px;
+  margin: 50px;
+  background-color: hsl(283, 72%, 75%);
+  }
+  
+  nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    transition: background-color .5s, width 2.0s, color 2.0s;
+    
+  }
+  
+  nav li a:hover {
+    background-color: hsl(283, 60%, 60%);
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+   
+
+
+footer {
+    grid-column: span 12;
+    background-color: hsl(283, 72%, 75%);
+    color: white;
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 140px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+footer a {
+    color: purple;
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+    
+  }
+  
+  footer a:hover {
+    transition: background-color .5s, width 2.0s, color 1.0s;
+    color: darkorchid;
+  }
+
+  
