@@ -57,8 +57,10 @@ main {
   box-shadow: 8px 8px 5px rgb(74, 16, 74);
 }
 
+
 nav {
     grid-column: span 6;
+  
 }
 
 .about {
@@ -133,6 +135,10 @@ nav li {
 width: 150px;
 margin: 50px;
 background-color: hsl(283, 72%, 75%);
+background-image: url(star1.png);
+background-position-x: 10px ;
+border-radius: 15px;
+
 }
 
 nav li a {
@@ -142,6 +148,7 @@ nav li a {
   text-align: center;
   color: white;
   transition: background-color .5s, width 2.0s, color 2.0s;
+  border-radius: 15px;
   
 }
 
@@ -149,6 +156,7 @@ nav li a:hover {
   background-color: hsl(283, 60%, 60%);
   text-decoration: none;
   color: white;
+  border-radius: 15px;
 }
 
 .instagramlogo {

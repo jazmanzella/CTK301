@@ -105,6 +105,9 @@ body {
   width: 150px;
   margin: 50px;
   background-color: hsl(283, 72%, 75%);
+  background-image: url(star1.png);
+  background-position-x: 10px ;
+  border-radius: 15px;
   }
   
   nav li a {
@@ -114,6 +117,7 @@ body {
     text-align: center;
     color: white;
     transition: background-color .5s, width 2.0s, color 2.0s;
+    border-radius: 15px;
     
   }
   
@@ -121,6 +125,7 @@ body {
     background-color: hsl(283, 60%, 60%);
     text-decoration: none;
     color: white;
+    border-radius: 15px;
   }
 
   .active {
@@ -142,15 +147,15 @@ body {
 }
 
 footer a {
-    color: purple;
-    font-size: 35px;
-    position: relative;
-    left: 30px;
-    top: 5px;
-    
-  }
+  color: darkorchid;
+  font-size: 35px;
+  position: relative;
+  left: 30px;
+  top: 5px;
   
-  footer a:hover {
-    transition: background-color .5s, width 2.0s, color 1.0s;
-    color: darkorchid;
-  }
+}
+
+footer a:hover {
+  transition: background-color .5s, width 2.0s, color 1.0s;
+  color: purple;
+}
